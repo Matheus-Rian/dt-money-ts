@@ -14,20 +14,20 @@ export const HeaderContent = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+`
 
-  button {
-    height: 50px;
-    border: 0;
-    background: ${props => props.theme["green-500"]};
-    color: ${props => props.theme.white};
-    font-weight: bold;
+export const NewTransactionButton = styled.button`
+  height: 50px;
+  border: 0;
+  background: ${props => props.theme["green-500"]};
+  color: ${props => props.theme.white};
+  font-weight: bold;
 
-    padding: 0 1.25rem;
-    border-radius: 6px;
+  padding: 0 1.25rem;
+  border-radius: 6px;
 
-    &:hover {
-      background: ${props => props.theme["green-700"]};
-      transition: background 0.2s;
-    }
+  &:hover {
+    background: ${props => props.theme["green-700"]};
+    transition: background 0.2s;
   }
 `
